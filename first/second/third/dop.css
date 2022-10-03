@@ -1,0 +1,39 @@
+.logo 
+{
+    width: 100px;
+    border-radius: 10% 5%;
+}
+header {
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 8px;
+}
+img{
+    max-width: 90%;
+    height: auto;
+}
+th, td {
+    font-size: 9px;
+}
+.container a{
+    padding: 5px;
+    color: #800000;
+}
+
+.myyellow{background-color: #FFF8DC;}
+
+.myred{background-color: #BC8F8F;}
+
+.myorange{ background-color: #FFE4C4;}
+
+@media (min-width: 768px) {
+
+    th, td {
+        font-size: 15px;
+    }
+    img {
+        max-width: 900px;
+    }
+
+    
+}
